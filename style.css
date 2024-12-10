@@ -46,6 +46,10 @@ section > div {
   background-color: rgb(15, 15, 15);
   align-items: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
   justify-content: space-around;
   padding: 10px;
 }
@@ -89,10 +93,6 @@ section > div {
   background-color: rgba(238, 66, 66, 0);
   border-color: #0071e3;
   border: 1px solid #0071e3;
-}
-.iphone16-img {
-  height: auto;
-  position: absolute;
 }
 
 /* iphone16 */
@@ -194,4 +194,24 @@ section > div {
   text-align: center;
   justify-content: space-around;
   padding: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: flex-start;
+  padding: 16px;
+  margin: 0;
+
+  height: 80vh;
+  background-color: rgb(242, 242, 242);
+  font-size: 12px;
+  font-weight: 210;
+  bottom: 100px;
+}
+
+.footer-2 {
+  top: 20px;
+  bottom: 0px;
 }
