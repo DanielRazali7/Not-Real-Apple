@@ -32,6 +32,23 @@ section > div {
   height: 20px;
 }
 
+/* hyperlink style text  */
+.style-text {
+  text-decoration: underline; 
+  padding: 10px;
+  gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.highlighted {
+  color: rgb(63, 143, 254); 
+  text-decoration: none; 
+}
+
+
+/* horizontal box */
+
 .horizontal-box {
   flex-direction: column;
   justify-content: center;
@@ -226,18 +243,48 @@ section > div {
   padding: 10px;
 }
 
+/* GRID SECTION */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin: 10%;
+  margin-bottom: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: flex;
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+/* iPad Air */
+
+
+
+/* AirPods Pro */
+
+}
 /* FOOTER SECTION */
 
+
+
+section > footer {
+  margin: 30px;
+}
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-content: flex-start;
   padding: 16px;
-  margin: 20;
+  margin: 60;
   margin-right: 30px;
 
-  height: 80vh;
+  height: 100vh;
   background-color: rgb(242, 242, 242);
   color: #545454;
   font-size: 12px;
@@ -246,6 +293,8 @@ footer {
 }
 .footer-1 {
   font: 100;
+  padding: 20px;
+margin-top: 20px;
 }
 .footer-2 {
   background-color: #efefef;
